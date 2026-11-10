@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PulseFit Studio — Gym, Classes & Personal Coaching</title>
+<meta name="description" content="PulseFit Studio — strength, cardio and group classes with coaching that fits your schedule. Memberships from day passes to full coaching plans.">
+<link rel="icon" type="image/png" href="favicon.png">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',system-ui,sans-serif;background:#0d0f14;color:#eef1f6;line-height:1.6}
+  a{color:#ff7847;text-decoration:none}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  header{position:sticky;top:0;background:rgba(13,15,20,.92);backdrop-filter:blur(10px);border-bottom:1px solid #232733;z-index:10}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.25rem;letter-spacing:.02em;color:#fff}
+  .brand img{width:38px;height:38px;border-radius:10px}
+  .brand span{color:#ff7847}
+  .nav nav a{color:#cfd6e4;margin-left:22px;font-size:.95rem}
+  .nav nav a:hover{color:#ff7847}
+  .hero{background:linear-gradient(rgba(10,10,14,.55),rgba(10,10,14,.78)),url('images/hero.jpg') center/cover;padding:110px 0 90px;text-align:center}
+  .hero h1{font-size:clamp(2.2rem,5.5vw,3.6rem);line-height:1.08;font-weight:900}
+  .hero h1 span{color:#ff7847}
+  .hero p{max-width:620px;margin:16px auto 0;color:#dde4ef;font-size:1.08rem}
+  .cta{display:inline-block;background:#ff7847;color:#16100c;font-weight:700;padding:13px 30px;border-radius:999px;margin-top:26px}
+  .cta:hover{background:#ff8f66}
+  section{padding:64px 0}
+  h2{font-size:1.9rem;font-weight:800;margin-bottom:8px}
+  .sub{color:#9aa5b8;margin-bottom:30px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+  .card{background:#161a23;border:1px solid #232733;border-radius:14px;padding:24px}
+  .card h3{color:#ff7847;margin-bottom:8px;font-size:1.12rem}
+  .card p{color:#c3ccd9;font-size:.95rem}
+  table{width:100%;border-collapse:collapse;background:#161a23;border-radius:14px;overflow:hidden}
+  th,td{padding:13px 16px;text-align:left;border-bottom:1px solid #232733;font-size:.95rem}
+  th{background:#1d222e;color:#ff7847}
+  tr:last-child td{border-bottom:none}
+  .price .card{text-align:center}
+  .price .amount{font-size:2rem;font-weight:900;color:#fff;margin:8px 0}
+  .price .amount small{font-size:.9rem;color:#9aa5b8;font-weight:400}
+  .featured{border-color:#ff7847}
+  form{display:grid;gap:14px;max-width:520px}
+  input,select{background:#161a23;border:1px solid #2b3140;border-radius:10px;padding:13px 15px;color:#eef1f6;font-size:.95rem;width:100%}
+  button{background:#ff7847;color:#16100c;font-weight:700;border:none;padding:14px;border-radius:10px;font-size:1rem;cursor:pointer}
+  button:hover{background:#ff8f66}
+  .note{color:#9aa5b8;font-size:.9rem}
+  footer{border-top:1px solid #232733;padding:34px 0;color:#8b95a9;font-size:.9rem;text-align:center}
+  footer .brand{justify-content:center;font-size:1.05rem;margin-bottom:8px}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#"><img src="favicon.png" alt="PulseFit Studio logo">Pulse<span>Fit</span>&nbsp;Studio</a>
+  <nav><a href="#classes">Classes</a><a href="#schedule">Schedule</a><a href="#pricing">Membership</a><a href="#join">Join</a></nav>
+</div></header>
+
+<div class="hero"><div class="wrap">
+  <h1>Stronger every week.<br><span>Start today.</span></h1>
+  <p>Strength, cardio and mobility training with coaches who programme for you — not for the mirror. First session free for new members.</p>
+  <a class="cta" href="#join">Claim your free session</a>
+</div></div>
+
+<section id="classes"><div class="wrap">
+  <h2>Train your way</h2>
+  <p class="sub">Small-group coaching, open gym hours from 5:30 AM, and programmes for every level.</p>
+  <div class="grid">
+    <div class="card"><h3>Strength Foundations</h3><p>Squat, hinge, press and pull — coached barbell basics that build real, usable strength safely.</p></div>
+    <div class="card"><h3>Pulse Conditioning</h3><p>45-minute high-energy circuits mixing sleds, ropes and intervals. Hard work, short clock, big sweat.</p></div>
+    <div class="card"><h3>Mobility & Recovery</h3><p>Guided stretching and breathwork sessions that keep joints happy and training consistent.</p></div>
+    <div class="card"><h3>Personal Coaching</h3><p>One-to-one programming, nutrition check-ins and progress testing every six weeks.</p></div>
+  </div>
+</div></section>
+
+<section id="schedule" style="background:#10131a"><div class="wrap">
+  <h2>Weekly class schedule</h2>
+  <p class="sub">Book in the studio or by message — classes capped at 14 people.</p>
+  <table>
+    <tr><th>Day</th><th>06:00</th><th>12:15</th><th>18:00</th><th>19:15</th></tr>
+    <tr><td>Monday</td><td>Strength Foundations</td><td>Pulse Conditioning</td><td>Strength Foundations</td><td>Mobility & Recovery</td></tr>
+    <tr><td>Tuesday</td><td>Pulse Conditioning</td><td>Open Gym Coaching</td><td>Pulse Conditioning</td><td>Strength Foundations</td></tr>
+    <tr><td>Wednesday</td><td>Strength Foundations</td><td>Pulse Conditioning</td><td>Strength Foundations</td><td>Mobility & Recovery</td></tr>
+    <tr><td>Thursday</td><td>Pulse Conditioning</td><td>Open Gym Coaching</td><td>Pulse Conditioning</td><td>Strength Foundations</td></tr>
+    <tr><td>Friday</td><td>Strength Foundations</td><td>Pulse Conditioning</td><td>Team Workout</td><td>Mobility & Recovery</td></tr>
+    <tr><td>Saturday</td><td>Long Conditioning</td><td>—</td><td>Open Gym Coaching</td><td>—</td></tr>
+  </table>
+</div></section>
+
+<section id="pricing" class="price"><div class="wrap">
+  <h2>Membership</h2>
+  <p class="sub">No joining fee this month. Pause anytime with one message.</p>
+  <div class="grid">
+    <div class="card"><h3>Day Pass</h3><div class="amount">$6</div><p>Full gym access for one day, one group class included.</p></div>
+    <div class="card featured"><h3>Monthly</h3><div class="amount">$39<small> /month</small></div><p>Unlimited classes and open gym, one guest pass a month.</p></div>
+    <div class="card"><h3>Coaching Plan</h3><div class="amount">$89<small> /month</small></div><p>Everything in Monthly plus personal programming and monthly progress testing.</p></div>
+  </div>
+</div></section>
+
+<section id="join" style="background:#10131a"><div class="wrap">
+  <h2>Join PulseFit</h2>
+  <p class="sub">Tell us what you're training for — we'll reply within one business day with your free session time.</p>
+  <form id="joinForm">
+    <input type="text" id="jName" placeholder="Your name" required>
+    <input type="email" id="jEmail" placeholder="Email address" required>
+    <select id="jPlan"><option>Free first session</option><option>Day Pass</option><option>Monthly</option><option>Coaching Plan</option></select>
+    <button type="submit">Request my session</button>
+    <p class="note" id="joinNote"></p>
+  </form>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="brand"><img src="favicon.png" alt="" style="width:30px;height:30px;border-radius:8px">Pulse<span>Fit</span>&nbsp;Studio</div>
+  <p>Open Mon–Sat 5:30–21:00 · Ridge Road Training District</p>
+  <p style="margin-top:8px">© 2026 PulseFit Studio · Website by SatiraLabs</p>
+</div></footer>
+<script>
+document.getElementById('joinForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  var n=document.getElementById('jName').value.trim(), p=document.getElementById('jPlan').value;
+  document.getElementById('joinNote').textContent='Thanks, '+n.split(' ')[0]+' — your request for "'+p+'" is in. We will email your session time shortly.';
+  this.reset();
+});
+</script>
+</body>
+</html>
